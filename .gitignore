@@ -1,0 +1,36 @@
+# Dependencies and build
+/_build/
+/deps/
+*.ez
+
+# Generated on crash
+erl_crash.dump
+
+# Generated documentation
+/doc/
+
+# Mix archives
+*.tar
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Benchmark artifacts (generated)
+/bench/*.json
+/bench/*.bin
+
+# Temporary files
+*.swp
+*.swo
+*~
